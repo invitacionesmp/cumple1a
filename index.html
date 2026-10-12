@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aiza cumple un año · Invitación</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ ICONOS / DECORACIONES (SVG reutilizables) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    
+
+    
+
+    <symbol id="i-cake" viewBox="0 0 48 48">
+      <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="26" width="30" height="13" rx="3"/>
+        <path d="M9 31 q4 4 7.5 0 t7.5 0 t7.5 0 t7.5 0"/>
+        <path d="M24 26v-6M24 14c-2 2-2 4 0 5 2-1 2-3 0-5z"/>
+        <path d="M14 26v-4M34 26v-4"/>
+      </g>
+    </symbol>
+    <symbol id="i-candle" viewBox="0 0 48 48">
+      <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="11" y="28" width="26" height="11" rx="3"/>
+        <path d="M11 33 q3.2 3.2 6.5 0 t6.5 0 t6.5 0 t6.5 0"/>
+        <rect x="21" y="19" width="6" height="9" rx="1"/>
+        <path d="M24 9c-3 3-3 5 0 7 3-2 3-4 0-7z"/>
+      </g>
+    </symbol>
+    <symbol id="i-dinner" viewBox="0 0 48 48">
+      <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 33h32"/>
+        <path d="M11 33c0-9 6-15 13-15s13 6 13 15"/>
+        <path d="M24 18v-3M21.5 15h5"/>
+        <path d="M6 37h36"/>
+      </g>
+    </symbol>
+    <symbol id="i-party" viewBox="0 0 48 48">
+      <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 40l7-20 14 14z"/>
+        <path d="M15 28l6 6"/>
+        <path d="M27 14c0-3 3-4 3-7M33 21c2-2 5-1 7-3M32 12l2-2M38 25l3 1"/>
+      </g>
+    </symbol>
+
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>
+      </g>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/>
+      </g>
+    </symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="7" width="18" height="12" rx="2.5"/><path d="M8.5 7l1.3-2.2h4.4L15.5 7"/><circle cx="12" cy="13" r="3.2"/>
+      </g>
+    </symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24">
+      <path d="M12 20.5s-8-5-8-11a4.6 4.6 0 0 1 8-3 4.6 4.6 0 0 1 8 3c0 6-8 11-8 11z" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-crown" viewBox="0 0 24 24">
+      <path d="M3 18l-1-10 5.5 4L12 5l4.5 7L22 8l-1 10z" fill="#e6c36b"/>
+    </symbol>
+    <symbol id="i-home" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-6h4v6"/>
+      </g>
+    </symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/>
+      </g>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3.5" y="6" width="17" height="12.5" rx="2"/><path d="M4 7.5l8 6 8-6"/>
+      </g>
+    </symbol>
+    <symbol id="i-bow" viewBox="0 0 70 40">
+      <g fill="#f1c4c8" stroke="#e3a0a7" stroke-width="1">
+        <path d="M35 14 C 22 0, 4 4, 6 16 C 8 28, 26 24, 35 16Z"/>
+        <path d="M35 14 C 48 0, 66 4, 64 16 C 62 28, 44 24, 35 16Z"/>
+        <path d="M33 18 L 22 38 L 30 34 L 34 38Z"/>
+        <path d="M37 18 L 48 38 L 40 34 L 36 38Z"/>
+      </g>
+      <circle cx="35" cy="15" r="5.500" fill="#eab1b7" stroke="#e3a0a7" stroke-width="1"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="room">
+  <!-- Flores decorativas de fondo -->
+  <img class="bg-deco bg-l" src="assets/img/acuarela-1.png" alt="" aria-hidden="true">
+  <img class="bg-deco bg-r" src="assets/img/acuarela-2.png" alt="" aria-hidden="true">
+
+  <main class="stage">
+
+    <!-- ===================== COLUMNA 1 · CELULAR ===================== -->
+    <section class="phone" id="inicio">
+      <div class="phone-notch"></div>
+      <div class="screen">
+
+        <!-- Encabezado -->
+        <header class="hero">
+          <img class="corner c-tl" src="assets/img/arreglo4.png" alt="">
+          <img class="corner c-tr" src="assets/img/arreglo4.png" alt="">
+          <p class="script small-script">Celebremos</p>
+          <h1 class="serif-title">AIZA CUMPLE UN AÑO</h1>
+          <svg class="star s1" viewBox="0 0 10 10"><path d="M5 0l1.200 3.800L10 5 6.200 6.200 5 10 3.800 6.200 0 5l3.800-1.200z" fill="#d9b88f"/></svg>
+          <svg class="star s2" viewBox="0 0 10 10"><path d="M5 0l1.200 3.800L10 5 6.200 6.200 5 10 3.800 6.200 0 5l3.800-1.200z" fill="#d9b88f"/></svg>
+        </header>
+
+        <!-- Fotos polaroid + insignia -->
+        <div class="polaroids">
+          <figure class="polaroid p1">
+            <span class="tape"></span>
+            <div class="photo ph"><img src="assets/img/foto1.jpg" alt="Foto 1" onerror="this.remove()"></div>
+          </figure>
+          <figure class="polaroid p2">
+            <span class="tape tape-r"></span>
+            <div class="photo ph"><img src="assets/img/foto2.jpg" alt="Foto 2" onerror="this.remove()"></div>
+          </figure>
+
+          <div class="badge">
+            <div class="badge-circle">
+              <span class="badge-one">UN</span>
+              <span class="badge-derful">añito</span>
+            </div>
+            <svg class="badge-bow"><use href="#i-bow"/></svg>
+          </div>
+
+          <svg class="heart-mini h1"><use href="#i-heart"/></svg>
+          <img class="deco d-flower" src="assets/img/arreglo4.png" alt="">
+          <img class="deco d-flower-r" src="assets/img/pink-flower-4.png" alt="">
+        </div>
+
+        <!-- Fecha / lugar -->
+        <section class="when">
+          <p class="eyebrow">ACOMPÁÑANOS A CELEBRAR</p>
+          <p class="script name-script">El Primer cumpleaños de Aiza</p>
+
+          <div class="rule"><svg class="rule-heart"><use href="#i-heart"/></svg></div>
+
+          <div class="date-row">
+            <span class="date-num">14</span>
+            <span class="date-month">NOVIEMBRE</span>
+            <span class="date-num">2026</span>
+          </div>
+          <p class="weekday">SÁBADO</p>
+          <div class="rule thin"></div>
+
+          <div class="info-row">
+            <div class="info"><svg><use href="#i-clock"/></svg><span>17:00 HS</span></div>
+            <div class="info"><svg><use href="#i-pin"/></svg><span>EL JARDÍN DE LAS PALMAS<br>LAHORE, PAKISTÁN</span></div>
+          </div>
+        </section>
+
+        <!-- Mensaje -->
+        <section class="msg-card">
+          <img class="card-fl cf-tl" src="assets/img/pink-rose-3.png" alt="">
+          <img class="card-fl cf-br" src="assets/img/pink-flower-6.png" alt="">
+          <h3 class="script card-title">Una pequeña princesa <svg class="crown"><use href="#i-crown"/></svg></h3>
+          <p>Un añito de risas,<br>amor y pura felicidad.<br>Nuestros corazones están llenos<br>al celebrar el gran día<br>de nuestra pequeña estrella.</p>
+          <svg class="heart-mini h2"><use href="#i-heart"/></svg>
+        </section>
+
+        <!-- Cuenta regresiva -->
+        <section class="countdown" id="cuenta">
+          <h3 class="script card-title with-flowers">
+            <img class="sp sp-l" src="assets/img/pink-flower-3.png" alt="">
+            Cuenta regresiva
+            <img class="sp sp-r" src="assets/img/pink-flower-3.png" alt="">
+          </h3>
+          <div class="count-box">
+            <div><b id="cd-days">00</b><small>DÍAS</small></div><i>:</i>
+            <div><b id="cd-hrs">00</b><small>HORAS</small></div><i>:</i>
+            <div><b id="cd-mins">00</b><small>MIN</small></div><i>:</i>
+            <div><b id="cd-secs">00</b><small>SEG</small></div>
+          </div>
+        </section>
+
+        <!-- Galería -->
+        <section class="gallery" id="galeria">
+          <h3 class="script card-title">Galería de fotos <svg class="cam"><use href="#i-camera"/></svg></h3>
+
+          <figure class="polaroid wide">
+            <span class="tape tape-l"></span>
+
+            <!-- Carrusel: las fotos se cargan desde js/config.js (lista "galeria") -->
+            <div class="photo ph carousel" id="carrusel" aria-roledescription="carrusel" aria-label="Galería de fotos">
+              <div class="car-track" id="car-track" tabindex="0"></div>
+              <button class="car-btn car-prev" id="car-prev" type="button" aria-label="Foto anterior">&#8249;</button>
+              <button class="car-btn car-next" id="car-next" type="button" aria-label="Foto siguiente">&#8250;</button>
+            </div>
+            <div class="car-dots" id="car-dots" aria-hidden="true"></div>
+
+            <!-- Arreglos florales en las esquinas -->
+            <img class="deco-png floral-izq" src="assets/img/arreglo4.png" alt="">
+            <img class="deco-png floral-der" src="assets/img/arreglo4.png" alt="">
+          </figure>
+        </section>
+
+        <!-- Barra de navegación -->
+        <nav class="tabbar">
+          <a href="#inicio"><svg><use href="#i-home"/></svg><span>INICIO</span></a>
+          <a href="#evento"><svg><use href="#i-calendar"/></svg><span>EVENTO</span></a>
+          <a href="#rsvp"><svg><use href="#i-mail"/></svg><span>CONFIRMAR</span></a>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ===================== COLUMNA 2 · TARJETA LARGA ===================== -->
+    <aside class="longcard">
+
+      <!-- Cronograma -->
+      <section class="schedule" id="evento">
+        <h2 class="script sec-title"><svg class="hm"><use href="#i-heart"/></svg> Cronograma <img class="sp-r2" src="assets/img/pink-flower-4.png" alt=""></h2>
+
+        <div class="timeline">
+          <svg class="tl-path" viewBox="0 0 240 400" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M38 80 C 60 124, 138 104, 172 132"/>
+            <path d="M178 180 C 142 222, 68 206, 46 232"/>
+            <path d="M38 280 C 60 324, 138 304, 172 332"/>
+          </svg>
+
+          <div class="tl-item t1">
+            <div class="tl-icon"><svg><use href="#i-cake"/></svg></div>
+            <div class="tl-text"><b>17:00 HS</b><strong>Llegada de invitados</strong><span>Bienvenida y<br>refrescos</span></div>
+          </div>
+          <div class="tl-item t2">
+            <div class="tl-icon"><svg><use href="#i-candle"/></svg></div>
+            <div class="tl-text"><b>18:00 HS</b><strong>Corte de torta</strong><span>¡Cantemos, sonriamos<br>y celebremos!</span></div>
+          </div>
+          <div class="tl-item t3">
+            <div class="tl-icon"><svg><use href="#i-dinner"/></svg></div>
+            <div class="tl-text"><b>19:00 HS</b><strong>Hora de cenar</strong><span>Rica comida<br>y buena onda</span></div>
+          </div>
+          <div class="tl-item t4">
+            <div class="tl-icon"><svg><use href="#i-party"/></svg></div>
+            <div class="tl-text"><b>20:00 HS</b><strong>Juegos y diversión</strong><span>Entretenimiento<br>para todos</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dress code -->
+      <section class="dress">
+        <h2 class="script sec-title">Código de vestimenta <img class="sp-r2 sm" src="assets/img/pink-flower-5.png" alt=""></h2>
+        <p>Viste tu color favorito</p>
+        <div class="dots">
+          <i style="--c:#e9b4b8"></i><i style="--c:#ecc9a8"></i><i style="--c:#b9ccae"></i><i style="--c:#cdb7dc"></i>
+        </div>
+      </section>
+
+      <!-- Nota -->
+      <section class="note">
+        <h2 class="script sec-title">Una nota <svg class="hm"><use href="#i-heart"/></svg></h2>
+        <p>Tu presencia hará este día<br>aún más especial.<br>¡No vemos la hora de<br>celebrar contigo!</p>
+        <img class="note-flower" src="assets/img/arreglo3.png" alt="">
+      </section>
+
+      <!-- RSVP -->
+      <section class="rsvp" id="rsvp">
+        <img class="rsvp-fl rf-l" src="assets/img/arreglo4.png" alt="">
+        <img class="rsvp-fl rf-r" src="assets/img/arreglo4.png" alt="">
+        <h2 class="script sec-title big">Confirma tu asistencia</h2>
+        <p class="by">antes del 10 de junio de 2025</p>
+        <a class="pill-btn solid" id="btn-rsvp" href="#">CONFIRMAR PRESENCIA <svg><use href="#i-heart"/></svg></a>
+        <p class="easy">¡Lo hicimos fácil!<br>Solo toca el botón<br>para confirmar.</p>
+      </section>
+    </aside>
+
+  </main>
+</div>
+
+<!-- Música -->
+<audio id="musica" src="assets/musica.mp3" loop preload="auto"></audio>
+<button id="btn-musica" class="music-btn" type="button" aria-label="Reproducir música" title="Música">
+  <svg viewBox="0 0 24 24" class="ic-play"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+  <svg viewBox="0 0 24 24" class="ic-pause"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg>
+</button>
+
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

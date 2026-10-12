@@ -1,0 +1,1 @@
+Pon aquí tu música como musica.mp3 (las fotos y decoraciones van en assets/img/).
