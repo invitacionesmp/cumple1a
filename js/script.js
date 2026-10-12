@@ -27,6 +27,7 @@
     if (a && href) { a.href = href; a.target = "_blank"; a.rel = "noopener"; }
   }
   setLink("btn-rsvp", cfg.rsvpLink);
+  setLink("btn-ubicacion", cfg.ubicacionLink);
 
   /* ---------- Música ---------- */
   var audio = document.getElementById("musica");
