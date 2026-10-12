@@ -15,7 +15,11 @@ window.INVITACION = {
   // Botón "CONFIRMAR PRESENCIA".
   // WhatsApp: "https://wa.me/54XXXXXXXXXX?text=Confirmo%20mi%20asistencia"
   // Correo:   "mailto:tucorreo@gmail.com?subject=Confirmación"
-  rsvpLink: "https://wa.me/5493794394807?text=¡Hola!%20Confirmo%20mi%20asistencia%20al%20cumpleaños%20de%20Aiza",
+  rsvpLink: "https://wa.me/5493794394807?text=¡Hola!%20Confirmo%20mi%20asistencia",
+
+  // Botón "VER UBICACIÓN" (abre Google Maps).
+  // Reemplázalo por el enlace exacto: en Google Maps → Compartir → Copiar enlace.
+  ubicacionLink: "https://www.google.com/maps/search/?api=1&query=El+Jard%C3%ADn+de+las+Palmas+Lahore+Pakistan",
 
   // Fotos del carrusel de "Galería de fotos" (se deslizan dentro del mismo recuadro).
   // Van en el orden en que las escribas; la primera es la portada.
