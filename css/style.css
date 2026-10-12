@@ -101,7 +101,7 @@ svg{display:inline-block}
 .s1{left:22px;top:14px}.s2{right:26px;top:48px}
 
 /* Polaroids */
-.polaroids{position:relative;height:342px;margin:6px -4px 0}
+.polaroids{position:relative;height:370px;margin:6px -4px 0}
 .polaroid{
   position:absolute;
   background:#fffdfb;
@@ -346,6 +346,8 @@ svg{display:inline-block}
 .rf-r{width:190px;right:-46px}
 .rsvp .by{font-size:11px;margin-top:6px;color:var(--ink)}
 .rsvp .easy{font-size:11px;line-height:1.55;margin-top:16px;color:var(--ink)}
+.rsvp #btn-ubicacion{margin-top:22px}
+.rsvp .address{font-size:9.5px;line-height:1.6;letter-spacing:.12em;margin-top:10px;color:var(--ink-soft)}
 
 
 /* ================= Música ================= */
@@ -372,7 +374,7 @@ section[id]{scroll-margin-top:12px}
 }
 @media (max-width: 380px){
   .screen{padding-left:14px;padding-right:14px}
-  .polaroids{transform:scale(.88);transform-origin:top center;height:300px;margin-bottom:-6px}
+  .polaroids{transform:scale(.88);transform-origin:top center;height:326px;margin-bottom:-6px}
   .corner{width:112px}
   .count-box b{font-size:28px}
   .count-box div{min-width:46px}
@@ -381,4 +383,5 @@ section[id]{scroll-margin-top:12px}
   .room{padding:56px 16px 40px}
   .bg-deco{display:block}
 }
+
 
